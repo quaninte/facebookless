@@ -1,7 +1,7 @@
 {
     "update_url": "https://clients2.google.com/service/update2/crx",
     "manifest_version": 2,
-    "name": "Facebookless - Help you become more productive",
+    "name": "Facebookless - Be more productive",
     "version": "0.1",
     "description": "Makes Facebook less addicting, Help you become more productive",
     "icons": {
