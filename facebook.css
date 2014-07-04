@@ -1,0 +1,35 @@
+.moneyBox {
+    padding: 10px;
+    margin-bottom: 10px;
+    background: white;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+}
+
+.moneyBox h1 {
+    color: rgb(250, 23, 123);
+    font-size: 20px;
+    padding: 5px;
+}
+
+.moneyBox .money-image {
+    width: 100%;
+}
+
+.moneyBox button {
+    background: #425F9C;
+    border: 1px solid #000000;
+    color: #FFF;
+    padding: 25px 50px;
+    margin-top: 10px;
+    font-size: 24px !important;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.showFacebookNewsFeed {
+    text-align: center;
+    padding-bottom: 20px;
+}
