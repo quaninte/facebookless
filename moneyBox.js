@@ -8,7 +8,7 @@ if (window.navigator.language == 'vi-VN') {
 }
 
 var moneyBox = $('<div class="moneyBox"><h1>' + message.messages[locale].title + '</h1>' +
-    '<img src="' + message.image + '" title="' + message.messages[locale].title + '" />' +
+    '<img src="' + message.image + '" title="' + message.messages[locale].title + '" class="money-image" />' +
     '<div><button class="closeFacebookBtn">' + message.messages[locale].button + '</button></div>' +
     '</div>');
 
