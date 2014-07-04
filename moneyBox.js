@@ -1,7 +1,15 @@
 // add message to newsfeed
-var moneyBox = $('<div class="moneyBox"><h1>LOOK AT HOW MUCH MONEY YOU CAN MAKE WHILE NOT BROWSING FACEBOOK</h1>' +
-    '<img src="http://localhost/facebookless/money.jpg" class="money-image" alt="Money" />' +
-    '<div><button class="closeFacebookBtn">Let\'s Make Some Money</button></div>' +
+var message = getRandomMessage();
+var locale;
+if (window.navigator.language == 'vi-VN') {
+    locale = 'vi';
+} else {
+    locale = 'en';
+}
+
+var moneyBox = $('<div class="moneyBox"><h1>' + message.messages[locale].title + '</h1>' +
+    '<img src="' + message.image + '" title="' + message.messages[locale].title + '" />' +
+    '<div><button class="closeFacebookBtn">' + message.messages[locale].button + '</button></div>' +
     '</div>');
 
 $('.closeFacebookBtn', moneyBox).click(function() {

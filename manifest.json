@@ -26,6 +26,7 @@
                 "libs/jquery.min.js",
                 "libs/moment.js",
                 "options.js",
+                "messages.js",
                 "moneyBox.js",
                 "hideFeed.js"
             ],
