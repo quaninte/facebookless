@@ -3,10 +3,20 @@
 <head>
     <title>Facebookless</title>
     <link rel="stylesheet" type="text/css" href="libs/jquery.timepicker.css" />
+    <meta charset="UTF-8">
 </head>
 <body>
 
-<p><input type="checkbox" value="1" id="hide_feed"><label for="hide_feed">Require 2 clicks to see news-feed time:</label>
+<p>
+<div>
+    <label for="language">Language</label>
+    <select id="language">
+        <option value="auto">Auto-detect</option>
+        <option value="en">English</option>
+        <option value="vi">Tiếng Việt (Vietnamese)</option>
+    </select>
+</div>
+<input type="checkbox" value="1" id="hide_feed"><label for="hide_feed">Require 2 clicks to see news-feed time:</label>
 
 <div id="facebookless-options">
     <label for="from">From: </label><input id="from" class="timepicker">

@@ -14,15 +14,17 @@ HideFeed = {
 
         // if from morning to night
         if (fromSID < toSID) {
+            console.log('fromSID < toSID');
             // if current SID not in between
             if (currentSID < fromSID || currentSID > toSID) {
                 // --> stop
                 return;
             }
         } else {
+            console.log('fromSID > toSID');
             // from night to morning
             // if current SID in between
-            if (currentSID > fromSID && currentSID < toSID) {
+            if (currentSID > toSID && currentSID < fromSID) {
                 // --> stop
                 return;
             }

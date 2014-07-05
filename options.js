@@ -5,10 +5,11 @@ Options = {
     defaults: {
         hide_feed: 1,
         from: '9:00',
-        to: '18:00'
+        to: '18:00',
+        language: 'auto'
     },
 
-    timeKeys: ['from', 'to'],
+    timeKeys: ['from', 'to', 'language'],
 
     init: function()
     {
