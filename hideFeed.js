@@ -69,8 +69,6 @@ HideFeed = {
 
 };
 
-$(function() {
-    chrome.storage.sync.get(Options.defaults, function(items) {
-        HideFeed.init(items);
-    });
+chrome.storage.sync.get(Options.defaults, function(items) {
+    HideFeed.init(items);
 });
